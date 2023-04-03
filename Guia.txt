@@ -1,0 +1,62 @@
+Guia de Entrevista:
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Introdução
+
+	Pergunta: Será num site que por trás tem um código ou só será um software?
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Testes Psicotécnicos
+
+	Como é realizado os testes psicotécnicos?
+
+	Como o software determina o curso mais adequado para os utilizadores?
+
+	Qual é o público-alvo (que pessoas irão fazer o teste) desse software?
+
+	Como as respostas dadas são coletadas?
+
+	Como os utilizadores poderão verificar as respostas dadas por eles e se será possível depois de ser efetuado poder mudar respostas?
+
+	As perguntas vão ser todas de opções ou terão algumas perguntas para escrever?
+
+	Como serão as perguntas efetuadas aos utilizadores?
+
+	Como é feito o algoritmo que dá o resultado dependendo das perguntas?
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Funcionalidades do Software
+
+	Como o software gerencia dados do utilizador, como informações de perfil e resultados de teste?
+
+	Como o software pode ser acessado e utilizado pelas pessoas?
+
+	O software é compatível com diferentes sistemas operacionais?
+
+	O software pode ser utilizado em dispositivos móveis, como smartphones e tablets?
+
+	O software permite que os utilizadores salvem e retomem seus testes em um momento posterior?
+
+	Quais são as principais limitações do software?
+
+	O software está disponível em diferentes idiomas?
+
+	O software pode ser personalizado de acordo com as necessidades de uma determinada pessoa ou é sempre as mesmas perguntas?
+
+	O software oferece opções de acessibilidade para usuários com deficiências visuais ou auditivas?
+
+	Quais são as principais funcionalidades da interface do software?
+
+	Quer mudar alguma aparência do interface?
+
+	O interface terá várias páginas ou será só efetuada numa?
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Resultados
+
+	Qual é a expectativa em relação ao uso do software?
+
+	Como será o relatório do resultado, será enviado em email ou em pdf?
+
+	O software apresenta uma visão geral do desempenho da pessoa após a conclusão do teste ou só irá apresentar o curso mais adequado à pessoa?
+	O software suporta vários utilizadores simultâneos?
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Conclusão
+
+	Pergunta: Existe alguma outra informação que você gostaria de compartilhar sobre o software ou o processo de desenvolvimento?
