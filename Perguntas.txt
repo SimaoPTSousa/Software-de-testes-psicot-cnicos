@@ -1,0 +1,58 @@
+1- Será num site que por trás tem um código ou só será um software? 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1- Como é realizado os testes psicotécnicos?
+
+2- Como o software determina o curso mais adequado para os utilizadores?
+
+3- Como o software gerencia dados do utilizador, como informações de perfil e resultados de teste?
+
+4- Qual é o público-alvo (que pessoas irão fazer o teste) desse software?
+
+5- Como o software pode ser acessado e utilizado pelas pessoas?
+
+6- O software é compatível com diferentes sistemas operacionais?
+
+7- O software pode ser utilizado em dispositivos móveis, como smartphones e tablets?
+
+8- Quais são as expectativas em relação ao uso do software?
+
+9- Como as respostas dadas são coletados?
+
+10- Como os utilizadores poderão verificar as respotas dadas por eles e se será possivel depois de ser  efetuado poder mudar respostas?
+
+11- As perguntas vão ser todas de opções ou terão algumas perguntas para escrever? 
+
+12- O software permite que os utilizadores salvem e retomem seus testes em um momento posterior?
+
+13- Como serão as perguntas efetuadas aos utilizadores?
+
+14- Quais são as principais limitações do software?
+
+15- O software está disponível em diferentes idiomas?
+
+16- O software pode ser personalizado de acordo com as necessidades de uma determinada pessoa ou é sempre as mesmas perguntas?
+
+17- Como será o relatorio do resultado, será enviado em email ou em pdf ...?
+
+18- O software apresenta uma visão geral do desempenho da pessoa após a conclusão do teste ou só irá apresentar o curso mais adequado á pessoa?
+
+19- O software suporta varios utilizadores simultâneos?
+
+20- Como é feito o algoritmo que dá o resultado dependendo das perguntas?
+
+21- O software oferece opções de acessibilidade para usuários com deficiências visuais ou auditivas?
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1- Quais são as principais funcionalidades da interface do software?
+
+2- Quer mudar alguma aparência do interface?
+
+3- O interface terá várias páginas ou será só efetuada numa?
+
+
+
+
+
+
+
