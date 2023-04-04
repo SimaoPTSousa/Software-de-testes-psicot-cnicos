@@ -11,7 +11,7 @@ Testes Psicotécnicos
 
 	Qual é o público-alvo desse software? (que pessoas irão fazer o teste)- do 9 ano e 11 ano. 
 
-	Como as respostas dadas são coletadas?- Base de dados.
+	Como as respostas dadas são coletadas?- não guarda só guarda os resultados.
 
 	Como os utilizadores poderão verificar as respostas dadas por eles e se será possível depois de ser efetuado poder mudar respostas?- respostas não dá mas resultados e que cada resultado é vai dar por um relatorio.
 
@@ -24,7 +24,7 @@ Testes Psicotécnicos
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 Funcionalidades do Software
 
-	Como o software gerencia dados do utilizador, como informações de perfil e resultados de teste?
+	Como o software gerencia dados do utilizador, como informações de perfil e resultados de teste?- Baso de dados.
 
 	Como o software pode ser acessado e utilizado pelas pessoas?
 
