@@ -9,7 +9,7 @@ Testes Psicotécnicos
 
 	Como o software determina o curso mais adequado para os utilizadores?
 
-	Qual é o público-alvo (que pessoas irão fazer o teste) desse software?
+	Qual é o público-alvo desse software? (que pessoas irão fazer o teste) 
 
 	Como as respostas dadas são coletadas?
 
@@ -38,8 +38,6 @@ Funcionalidades do Software
 	O software está disponível em diferentes idiomas?
 
 	O software pode ser personalizado de acordo com as necessidades de uma determinada pessoa ou é sempre as mesmas perguntas?
-
-	O software oferece opções de acessibilidade para usuários com deficiências visuais ou auditivas?
 
 	Quais são as principais funcionalidades da interface do software?
 
