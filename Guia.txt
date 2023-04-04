@@ -2,11 +2,10 @@ Guia de Entrevista:
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 Introdução
 
-	Pergunta: Será num site que por trás tem um código ou só será um software?
+	Como é realizado os testes psicotécnicos atualmente (será num site ou outra coisa etc...)?
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 Testes Psicotécnicos
 
-	Como é realizado os testes psicotécnicos?
 
 	Como o software determina o curso mais adequado para os utilizadores?
 
@@ -49,8 +48,6 @@ Funcionalidades do Software
 	O interface terá várias páginas ou será só efetuada numa?
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 Resultados
-
-	Qual é a expectativa em relação ao uso do software?
 
 	Como será o relatório do resultado, será enviado em email ou em pdf?
 
