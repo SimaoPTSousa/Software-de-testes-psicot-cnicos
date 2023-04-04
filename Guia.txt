@@ -15,9 +15,9 @@ Testes Psicotécnicos
 
 	Como os utilizadores poderão verificar as respostas dadas por eles e se será possível depois de ser efetuado poder mudar respostas?
 
-	As perguntas vão ser todas de opções ou terão algumas perguntas para escrever?
-
 	Como serão as perguntas efetuadas aos utilizadores?
+	
+	As perguntas vão ser todas de opções ou terão algumas perguntas para escrever?
 
 	Como é feito o algoritmo que dá o resultado dependendo das perguntas?
 --------------------------------------------------------------------------------------------------------------------------------------------------------
