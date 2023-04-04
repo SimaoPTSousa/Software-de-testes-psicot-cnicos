@@ -1,0 +1,55 @@
+Guia de Entrevista:
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Introdução
+
+	Como é realizado os testes psicotécnicos (será num site ou outra coisa etc...)?- Numa app que instalamos no pc.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Testes Psicotécnicos
+
+
+	Como o software determina o curso mais adequado para os utilizadores?- pelo o algoritmo.
+
+	Qual é o público-alvo desse software? (que pessoas irão fazer o teste)- do 9 ano e 11 ano. 
+
+	Como as respostas dadas são coletadas?- Base de dados.
+
+	Como os utilizadores poderão verificar as respostas dadas por eles e se será possível depois de ser efetuado poder mudar respostas?- respostas não dá mas resultados e que cada resultado é vai dar por um relatorio.
+
+	Como serão as perguntas efetuadas aos utilizadores?- serão 3 perguntas que teremos que escolher entre elas qual gostamos mais e qual gostamos menos. 
+
+	
+	As perguntas vão ser todas de opções ou terão algumas perguntas para escrever?- serão só opções.
+
+	Como é feito o algoritmo que dá o resultado dependendo das perguntas?
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Funcionalidades do Software
+
+	Como o software gerencia dados do utilizador, como informações de perfil e resultados de teste?
+
+	Como o software pode ser acessado e utilizado pelas pessoas?
+
+	O software é compatível com diferentes sistemas operacionais?
+
+	O software pode ser utilizado em dispositivos móveis, como smartphones e tablets?- Não só em pc.
+
+	O software permite que os utilizadores salvem e retomem seus testes em um momento posterior?
+
+	Quais são as principais limitações do software?
+
+	O software está disponível em diferentes idiomas?- Não só em português.
+
+	O software pode ser personalizado de acordo com as necessidades de uma determinada pessoa ou é sempre as mesmas perguntas?- sempre as mesmas perguntas.
+
+	O interface terá várias páginas ou será só efetuada numa?- várias consoante as perguntas (168).
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Resultados
+
+	Como será o relatório do resultado, será enviado em email ou em pdf?- não precisa.
+
+	O software apresenta uma visão geral do desempenho da pessoa após a conclusão do teste ou só irá apresentar o curso mais adequado à pessoa?- vai apresental o perfil da pessoa com os seu dados e suas persentagens.
+
+	O software suporta vários utilizadores simultâneos?- Sim em pc diferentes.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Conclusão
+
+	Pergunta: Existe alguma outra informação que você gostaria de compartilhar sobre o software ou o processo de desenvolvimento?- não.
