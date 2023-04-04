@@ -2,7 +2,7 @@ Guia de Entrevista:
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 Introdução
 
-	Como é realizado os testes psicotécnicos atualmente (será num site ou outra coisa etc...)?
+	Como é realizado os testes psicotécnicos (será num site ou outra coisa etc...)?
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 Testes Psicotécnicos
 
