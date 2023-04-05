@@ -1,0 +1,5 @@
+As a User i want to be able to access am website and perform a Kunter test.
+As a User i want to be able to register schools, students, age and gender.
+As a User i want to be able to do a test that can determine the best course topic for me.
+As a User i want to receive my profile after finishing the test.
+As a User i want my profile to have my data, the results and the explanation of each topic for a course.
