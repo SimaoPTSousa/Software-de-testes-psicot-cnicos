@@ -1,0 +1,31 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+  <h1>Criar escola</h1>
+  <form method="post">
+    {% csrf_token %}
+    <label for="name">Nome:</label>
+    <input type="text" name="name" required><br><br>
+    <label for="address">Endereço:</label>
+    <input type="text" name="address" required><br><br>
+    <label for="contact_number">Número de contato:</label>
+    <input type="text" name="contact_number" required><br><br>
+    <input type="submit" value="Adicionar escola">
+    <style>
+      #bottom {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: rotate(0deg);
+      }
+      #bottom a {
+        font-size: 5em;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="bottom"><a href="{% url 'index' %}">&#8592;</a></div>
+  </body>
+  </form>
+{% endblock %}

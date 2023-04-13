@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Respostas</title>
+  </head>
+  <body>
+    <h1>Respostas</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Pergunta</th>
+          <th>Escolha do usuário</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for key, value in results.items %}
+          <tr>
+            <td>{{ key }}</td>
+            <td>{{ value }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+
+  <h1>Escolas</h1>
+  <ul>
+    {% for school in schools %}
+      <li>
+        <a href="{% url 'school_detail' school_id=school.id %}">{{ school.name }}</a>
+        <form method="post" action="{% url 'delete_school' school_id=school.id %}" style="display: inline-block;">
+          {% csrf_token %}
+          <button type="submit">X</button>
+        </form>
+      </li>
+    {% empty %}
+      <li>Nenhuma escola encontrada.</li>
+    {% endfor %}
+  </ul>
+  
+  <a href="{% url 'create_school' %}">Criar nova escola</a>
+  
+  <style>
+    #bottom {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      transform: rotate(0deg);
+    }
+    #bottom a {
+      font-size: 5em;
+      color: black;
+    }
+  </style>
+  
+  <body>
+    <div id="bottom"><a href="{% url 'index' %}">&#8592;</a></div>
+  </body>
+
+{% endblock %}

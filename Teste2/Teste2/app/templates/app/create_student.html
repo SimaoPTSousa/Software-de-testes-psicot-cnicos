@@ -1,0 +1,60 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+  <h1>Criar novo aluno</h1>
+  <form method="POST">
+    {% csrf_token %}
+    <div>
+      <label for="first_name">Nome:</label>
+      <input type="text" id="first_name" name="first_name" required>
+    </div>
+    <div>
+      <label for="last_name">Sobrenome:</label>
+      <input type="text" id="last_name" name="last_name" required>
+    </div>
+    <div>
+      <label for="date_of_birth">Data de Nascimento:</label>
+      <input type="date" id="date_of_birth" name="date_of_birth" required>
+    </div>
+    <div>
+      <label for="school_id">Escola:</label>
+      <select id="school_id" name="school_id" required>
+        <option value="" disabled selected hidden>Escolha uma escola</option>
+        {% for school in schools %}
+          <option value="{{ school.id }}">{{ school.name }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div>
+      <label for="sex">Sexo:</label>
+      <select id="sex" name="sex" required>
+        <option value="" disabled selected hidden>Escolha o sexo</option>
+        <option value="M">Masculino</option>
+        <option value="F">Feminino</option>
+      </select>
+    </div>
+    <div>
+      <label for="year">Ano:</label>
+      <input type="number" id="year" name="year" min="1" max="12" required>
+    </div>
+    <div>
+      <button type="submit">Criar aluno</button>
+    </div>
+    <style>
+      #bottom {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: rotate(0deg);
+      }
+      #bottom a {
+        font-size: 5em;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="bottom"><a href="{% url 'index' %}">&#8592;</a></div>
+  </body>
+  </form>
+{% endblock %}

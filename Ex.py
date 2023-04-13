@@ -16,7 +16,6 @@ while True:
         list = (100, "Simão", 1.0)
         a, b, c = list
         print(a)
-        print(b)  
         print(c)
         exit()
     elif opc == 3:

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Questions</title>
+  </head>
+  <body>
+    <h1>Test</h1>
+    <form method="post" action="{% url 'app:results' %}">
+      {% csrf_token %}
+      {% for question in questions %}
+        <fieldset>
+          <legend>{{ question.question_text }}</legend>
+          {% for choice in question.choice_set.all %}
+            <input type="radio" id="choice{{ choice.id }}" name="question{{ question.id }}" value="{{ choice.id }}" required>
+            <label for="choice{{ choice.id }}">{{ choice.choice_text }}</label><br>
+          {% endfor %}
+        </fieldset>
+      {% endfor %}
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

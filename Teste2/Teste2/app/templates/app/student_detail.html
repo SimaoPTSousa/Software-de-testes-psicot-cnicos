@@ -1,0 +1,15 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+  <h1>{{ student.first_name }} {{ student.last_name }}</h1>
+  <p>Date of birth: {{ student.date_of_birth }}</p>
+  <p>School: <a href="{% url 'school_detail' school_id=student.school.id %}">{{ student.school.name }}</a></p>
+  <p>Test results:</p>
+  <ul>
+    {% for result in student.testresult_set.all %}
+      <li><a href="{% url 'test_detail' test_id=result.test.id %}">{{ result.test.name }}</a> - {{ result.score }}/{{ result.total_questions }}</li>
+    {% empty %}
+      <li>No test results found.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

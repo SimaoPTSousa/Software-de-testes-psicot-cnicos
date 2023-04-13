@@ -1,0 +1,38 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+  <h1>Alunos</h1>
+  <ul>
+    {% for student in students %}
+      <li>
+        <a href="{% url 'student_detail' student_id=student.id %}">
+          {{ student.first_name }} {{ student.last_name }}
+        </a>
+        <form method="post" action="{% url 'delete_student' student_id=student.id %}" style="display: inline-block;">
+          {% csrf_token %}
+          <button type="submit">X</button>
+        </form>
+      </li>
+    {% empty %}
+      <li>Nenhum aluno encontrado.</li>
+    {% endfor %}
+  </ul>
+
+  <a href="{% url 'create_student' %}">Criar novo aluno</a>
+  <style>
+    #bottom {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      transform: rotate(0deg);
+    }
+    #bottom a {
+      font-size: 5em;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div id="bottom"><a href="{% url 'index' %}">&#8592;</a></div>
+</body>
+{% endblock %}
